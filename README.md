@@ -1,4 +1,4 @@
-# X Lookup
+# X Lookup Users
 
 ## About
 
