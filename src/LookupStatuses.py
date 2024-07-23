@@ -14,5 +14,5 @@ id_ = [int(id.strip()) for id in id_input.split(',')]
 statuses = api.statuses_lookup(id_)
 
 for status in statuses: 
-    print("The status" + str(status.id) + " is posted by " + status.user.screen_name) 
+    print("The status" + str(status.id) + "was posted by " + status.user.screen_name) 
     print("Status: \n\n" + status.text, end="\n\n")
