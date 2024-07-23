@@ -9,7 +9,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-user_input = input("Enter ID(s) separated by commas: ")
+user_input = input("Enter user IDs (separated by commas): ")
 user_ids = [int(uid.strip()) for uid in user_input.split(",")]
 users = api.lookup_users(user_ids)
 
